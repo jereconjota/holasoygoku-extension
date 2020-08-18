@@ -1,0 +1,16 @@
+{
+  "name": "HolaSoyGoku",
+  "version": "1.0",
+  "description": "Frases del universo dragonball",
+  "manifest_version": 2,
+  "icons":{
+    "128": "/images/esfera.png"
+  },
+  "chrome_url_overrides": {
+    "newtab": "soygoku.html"
+  },
+  "browser_action": { 
+    "default_icon": "/images/esfera.png",
+    "default_popup": "popup.html"
+  }
+}
