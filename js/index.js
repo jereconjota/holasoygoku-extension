@@ -7,6 +7,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     let boton = document.getElementById('github')
     boton.addEventListener('click', function() {
-        chrome.tabs.create({url:'https://github.com/jereconjota'})
+        chrome.tabs.create({url:'https://github.com/jereconjota/holasoygoku-extension'})
     });
 });
