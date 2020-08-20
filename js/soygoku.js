@@ -2,7 +2,7 @@ function cargarPersonaje() {
     let avatar = document.getElementById('avatar')
     let nombre = document.getElementById('nombre-personaje')
     let frase = document.getElementById('frase')
-    let rdm = Math.floor(Math.random()*(10-1))+1 //numero random de 1 a 9
+    let rdm = Math.floor(Math.random()*(24-1))+1 //numero random de 1 a 23
     avatar.src = "/images/"+rdm+".png"
 
     switch(rdm){
@@ -32,16 +32,73 @@ function cargarPersonaje() {
         break
         case 7:
         nombre.innerHTML = 'Broli'
-        frase.innerHTML = '"¿Qué es ser conciente?"'
+        frase.innerHTML = '"¿Qué es ser consciente?"'
         break
         case 8:
         nombre.innerHTML = 'Freezer'
-        frase.innerHTML = '"Dudo que necesite una presentación, pero por si acaso, soy el poderoso Freezer y sí, todas las historias horribles que has escuchado son ciertas"'
+        frase.innerHTML = '"Soy el poderoso Freezer y sí, todas las historias horribles que has escuchado son ciertas"'
         break
         case 9:
         nombre.innerHTML = 'Gohan'
         frase.innerHTML = '"¿Pelear contigo? Vengo a matarte"'
         break
+        case 10:
+        nombre.innerHTML = 'Vegeta'
+        frase.innerHTML = '"Me parece difícil de creer que mis células están en tu cuerpo. ¿Cómo fue que resultaste ser tan feo? Que desperdicio. Aunque es obvio de donde sacaste tu fuerza."'
+        break
+        case 11:
+        nombre.innerHTML = 'Goku'
+        frase.innerHTML = '🖤'
+        break
+        case 12:
+        nombre.innerHTML = 'Goku'
+        frase.innerHTML = '"A veces la vida es muy incierta para los arrepentimientos."'
+        break
+        case 13:
+        nombre.innerHTML = 'Nº17'
+        frase.innerHTML = '"Sacrificarse por el bien de los demás... es un acto muy humano"'
+        break
+        case 14:
+        nombre.innerHTML = 'Octavio'
+        frase.innerHTML = '"Goku no puede morir, pase lo que pase yo lo protegere"'
+        break
+        case 15:
+        nombre.innerHTML = 'Nº16'
+        frase.innerHTML = '"Gohan, protege a los seres vivos y a las plantas de este mundo que tanto ame... te lo encargo"'  
+        break
+        case 16:
+        nombre.innerHTML = 'Cell'
+        frase.innerHTML = '"¡Necio! ¿¡No te das cuenta que estás peleando contra el arma perfecta?!"'
+        break
+        case 17:
+        nombre.innerHTML = 'Maestro Karin'
+        frase.innerHTML = '"Pelea hasta estar satisfecho."'
+        break
+        case 18:
+        nombre.innerHTML = 'Bardock'
+        frase.innerHTML = '"Kakaroto tu debes cumplir mi objetivo...tu seras quien vengara la muerte de todos los Saiyajin y la desaparición del Planeta Vegeta"'
+        break
+        case 19:
+        nombre.innerHTML = 'Freezer'
+        frase.innerHTML = '"Antes de comenzar tu patética lucha por sobrevivir, debería advertirte. Tu posibilidad de ganar es inexistente"'
+        break
+        case 20:
+        nombre.innerHTML = 'Vegeta'
+        frase.innerHTML = '"Trunks, Bulma, esto es por ustedes. Esto también es por ti Kakaroto."'
+        break
+        case 21:
+        nombre.innerHTML = 'Krillin'
+        frase.innerHTML = '"Goku, será un gusto pelear contigo de aquí en adelante."'
+        break
+        case 22:
+        nombre.innerHTML = 'Krillin'
+        frase.innerHTML = '"Me gustaría que cambiaras al Androide 17 y 18 a seres humanos, así podrán vivir una vida normal en paz."'
+        break
+        case 23:
+        nombre.innerHTML = 'Majin Boo'
+        frase.innerHTML = '"A pesar de ser un buen niño eres muy Fuerte"'
+        break
+        
         default:
         nombre.innerHTML = ''
         frase.innerHTML = ''
