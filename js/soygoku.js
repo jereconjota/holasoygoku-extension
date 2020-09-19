@@ -2,7 +2,7 @@ function cargarPersonaje() {
     let avatar = document.getElementById('avatar')
     let nombre = document.getElementById('nombre-personaje')
     let frase = document.getElementById('frase')
-    let rdm = Math.floor(Math.random()*(24-1))+1 //numero random de 1 a 23
+    let rdm = Math.floor(Math.random()*(27-1))+1 //numero random de 1 a 26
     avatar.src = "/images/"+rdm+".png"
 
     switch(rdm){
