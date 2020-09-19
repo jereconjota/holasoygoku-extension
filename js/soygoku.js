@@ -98,7 +98,18 @@ function cargarPersonaje() {
         nombre.innerHTML = 'Majin Boo'
         frase.innerHTML = '"A pesar de ser un buen niño eres muy Fuerte"'
         break
-        
+        case 24:
+        nombre.innerHTML = 'Bulma'
+        frase.innerHTML = '"¡No te preocupes, te protegeré de la carita aterradora de tu papá!"'
+        break
+        case 25:
+        nombre.innerHTML = 'Goku'
+        frase.innerHTML = '"Mas vale qe te calmes maldito asesino, mataste a cruel mente a personas inocentes una tras otras, te atreviste a matar a Krilin"'
+        break
+        case 26:
+        nombre.innerHTML = 'Vegeta'
+        frase.innerHTML = '"Por favor elimina a freezer, por favor matalo con tus manos de Saiyajin."'
+        break
         default:
         nombre.innerHTML = ''
         frase.innerHTML = ''
