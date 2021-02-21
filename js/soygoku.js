@@ -20,7 +20,7 @@ function cargarPersonaje() {
         break
         case 4:
         nombre.innerHTML = 'Piccoro'
-        frase.innerHTML = '"Dejenme en paz,el que este verde no significa que no este maduro"'
+        frase.innerHTML = '"Dejenme en paz, el que este verde no significa que no este maduro"'
         break
         case 5:
         nombre.innerHTML = 'Maestro Roshi'
@@ -44,7 +44,7 @@ function cargarPersonaje() {
         break
         case 10:
         nombre.innerHTML = 'Vegeta'
-        frase.innerHTML = '"Me parece difícil de creer que mis células están en tu cuerpo. ¿Cómo fue que resultaste ser tan feo? Que desperdicio. Aunque es obvio de donde sacaste tu fuerza."'
+        frase.innerHTML = '"Mientras el enemigo siga de pie, yo seguiré peleando"'
         break
         case 11:
         nombre.innerHTML = 'Goku'
@@ -64,7 +64,7 @@ function cargarPersonaje() {
         break
         case 15:
         nombre.innerHTML = 'Nº16'
-        frase.innerHTML = '"Gohan, protege a los seres vivos y a las plantas de este mundo que tanto ame... te lo encargo"'  
+        frase.innerHTML = '"Gohan, protege a los seres vivos y a las plantas de este mundo que tanto ame...te lo encargo"'  
         break
         case 16:
         nombre.innerHTML = 'Cell'
@@ -104,7 +104,7 @@ function cargarPersonaje() {
         break
         case 25:
         nombre.innerHTML = 'Goku'
-        frase.innerHTML = '"Mas vale qe te calmes maldito asesino, mataste a cruel mente a personas inocentes una tras otras, te atreviste a matar a Krilin"'
+        frase.innerHTML = '"Mas vale qe te calmes maldito asesino, mataste a cruelmente a personas inocentes una tras otras, te atreviste a matar a Krilin"'
         break
         case 26:
         nombre.innerHTML = 'Vegeta'

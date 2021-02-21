@@ -1,8 +1,8 @@
 {
   "name": "HolaSoyGoku",
-  "version": "2.0",
+  "version": "2.5",
   "description": "Frases del universo Dragon Ball",
-  "manifest_version": 2,
+  "manifest_version": 3,
   "icons":{
     "128": "/esfera.png"
   },
