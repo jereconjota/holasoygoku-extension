@@ -45,12 +45,10 @@
   }
 
   
-html, body {
-    height: 100vh;
+body {
     background-color: #e76a24 ;
     font-family: 'Press Start 2P', cursive;    
   }
-
 
 .personaje{
     display: flex;
