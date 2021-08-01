@@ -6,7 +6,7 @@ HolaSoyGoku es una single page la cual le dará un estilo colorido a tu navegado
 
 
 # Versión 
-v1.1
+v2.7
 
 # Ayuda y sugerencias
 Seguime y mandame DM en Twitter o Instagram! @jereconj0ta
